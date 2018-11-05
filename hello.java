@@ -14,7 +14,7 @@ public interface MService {
 public void save(Mobile m);
 
 public void saves(List<Mobile> list);
-
+//*******************************************************
 //查询手机号码的归属:number是一个7位数的号段
     @POST
     @Path("/find/{number}")
